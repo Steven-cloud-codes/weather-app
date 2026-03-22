@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* Go up one level (..), then into assets/backgrounds */
+  --background-image-noon: url('assets/backgrounds/noon.png');
+    --background-image-night: url('assets/backgrounds/night.png');
+}
+
+/* Add this below @theme to keep it pixelated */
+.noonBg{
+  image-rendering: pixelated;
+  background-size: cover;
+
+}
+.nightBg {
+  image-rendering: pixelated;
+  background-size: cover;
+
+}
