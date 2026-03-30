@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        // Make sure the image is in your /public folder!
+      
         'bagan-night': "url('/bagan-night.png')",
         'bagan-day': "url('/bagan-day.png')",
       },
